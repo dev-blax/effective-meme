@@ -1,0 +1,14 @@
+.category-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; /* Adjust the duration and easing function as needed */
+  }
+  
+  .category-menu.visible {
+    max-height: 200px; /* Set an appropriate max-height for the visible state */
+  }
+  
+  .category-menu.hidden {
+    max-height: 0;
+  }
+  
